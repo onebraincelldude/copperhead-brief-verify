@@ -1,0 +1,14 @@
+{
+  "gates": {"max_orphan_requirements": 0, "max_unsupported_items": 0},
+  "cases": [
+    {
+      "id": "sensor-node",
+      "requirements": [
+        {"id": "R1", "text": "must run on a 3.3V coin cell"},
+        {"id": "R2", "text": "must sample temperature every 60 seconds"},
+        {"id": "R3", "text": "must transmit over BLE"},
+        {"id": "R4", "text": "board must fit in 25mm x 25mm"}
+      ]
+    }
+  ]
+}
